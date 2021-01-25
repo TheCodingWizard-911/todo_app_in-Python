@@ -9,9 +9,7 @@
    This should output some information on the installed Python version.
    You can also install ruby by following these instructions: https://installpython3.com/
 
-2. You are expected to write the code in `todo.py` file.
-
-3. Once you are done with the changes you should be able to execute the todo app by running the following command from the terminal.
+2. You should be able to execute the todo app by running the following command from the terminal.
 
    **On Windows:**
 
@@ -52,7 +50,7 @@ To create a symbolic link on Windows, you'll need to run either the Windows Comm
 > cmd /c mklink todo todo.bat
 ```
 
-#### On \*nix:
+#### On Linux/Unix:
 
 Run the following command in your shell:
 
@@ -180,7 +178,3 @@ Use the `report` command to see the latest tally of pending and completed todos.
 $ ./todo report
 yyyy-mm-dd Pending : 1 Completed : 4
 ```
-
-## Improving README.md
-
-If you feel like we are missing out steps, feel free to make a pull request. [Github Repo](https://github.com/nseadlc-2020/package-todo-cli-task)
